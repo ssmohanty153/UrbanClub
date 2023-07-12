@@ -1,0 +1,235 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    margin: 5px;
+}
+
+.logoImage img {
+    width: 140px;
+    margin-top: 5px;
+}
+
+.headerSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    color: #fff;
+}
+
+.headerSectionEnd {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6rem;
+}
+
+.HomeService input {
+    padding: 11px;
+    width: 300px;
+
+}
+
+.HomeService select {
+    padding: 10px;
+    width: 120px;
+
+}
+
+.headerSection h1 {
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+
+.HomeService {
+    margin: 10px;
+}
+
+.menSection {
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.background {
+
+    background-image: url(https://res.cloudinary.com/urbanclap/image/upload/images/growth/home-screen/1615375782838-f890f8.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 552px;
+    background: linear-gradient(rgba(0, 0, 0, 0.2));
+
+}
+
+/* div .sectionTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div .sectionButtom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.divSecTop {
+    margin: 10px;
+}
+
+.divSecButtom {
+    margin: 10px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width:  1000px;
+   margin-left: 420px;
+} */
+
+.section1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section2 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+}
+
+.section3 {
+    position: relative;
+    top: -60px;
+    margin: 0 auto !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 24px;
+    background: #fff;
+    margin: 64px auto;
+    width: 1200px;
+    border-radius: 4px;
+    box-shadow: 0 8px 26px 0 rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+    width: 1008px;
+}
+
+div .sectionTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div .sectionButtom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.divSecTop {
+    margin: 10px;
+}
+
+.divSecButtom {
+    margin: 10px;
+}
+
+.divSecTop div {
+    width: 32px;
+    height: 32px;
+    margin: auto;
+}
+
+.divSecTop span {
+    display: inline-block;
+    margin-top: 16px;
+    font-size: 13px;
+    line-height: 16px;
+    color: #212121;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.divSecTop div img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.divSecButtom div {
+    width: 32px;
+    height: 32px;
+    margin: auto;
+}
+
+.divSecButtom span {
+    display: inline-block;
+    margin-top: 16px;
+    font-size: 13px;
+    line-height: 16px;
+    color: #212121;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.divSecButtom div img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.sectionUlCard1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionliCard1Img {
+    width: 300px;
+    margin: 0px 10px;
+
+}
+
+.sectionUlCard1 :hover {
+
+    transition: transform 0.5s;
+    transform: scale(1.03);
+    cursor: pointer;
+
+}

@@ -1,0 +1,11 @@
+{
+  "name": "urbanclub",
+  "version": "1.0.0",
+  "description": "Home Cleaning appand hair cut",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Subhransu",
+  "license": "ISC"
+}
